@@ -2,3 +2,9 @@ set $my_autostart bash ~/.config/sway/autostart.sh
 set $my_tray_output *
 
 include ~/.config/i3/config.d/config
+
+input "type:keyboard" {
+    xkb_options "caps:swapescape,bell:none"
+    repeat_delay 250
+    repeat_rate 30
+}
