@@ -3,6 +3,8 @@ set $my_tray_output *
 
 include ~/.config/i3/config.d/config
 
+for_window [app_id="yad"] floating enable
+
 input "type:keyboard" {
     xkb_options "caps:swapescape,bell:none"
     repeat_delay 250
